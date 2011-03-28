@@ -1,19 +1,13 @@
-html {
+/* Structure */
+html, body {
 	font-family: Times, Times New Roman, serif;
 	color: #333;
 	height: 100%; /* needed for min-height */
 	font-size: 16px;
 	background: url('/images/rhythm.png');
-}
-#grid { 
-	position: absolute;
-	height: 1000%;
-	width: 100%; /* f4f4e9 */
-}
-body {
 	text-align: center;
-	height: 100%;
 }
+
 #main {
 	background: #fdfdfd;
 	width: 600px;
@@ -22,18 +16,13 @@ body {
 	border-left: solid 20px #333;
 	min-height: 100%;
 }
-h1 {
+header h1 {
 	display: block;
 	width: 536px;
 	height: 47px;
 	padding: 53px 0 25px 0;
 	margin: 0 auto;
 	background: url("/images/oliland.png") 0 53px no-repeat;
-}
-
-h1 span,
-#tagline span {
-	display: none;
 }
 
 #tagline {
@@ -44,14 +33,21 @@ h1 span,
 	margin: 0 auto;
 	background: url("/images/tagline.png") 0 17px no-repeat;
 }
+
+h1 span,
+#tagline span {
+	display: none;
+}
+
 article {
 	clear: both;
 	text-align: left;
 	margin: 0 50px;
 }
-article h2 {
-	font-family: Times, serif;
-	color: #444;
+
+/* Type */
+
+h2 {
 	font-size: 25px;
 	letter-spacing: 0.03em;
 	word-spacing: 0.25em;
@@ -61,23 +57,37 @@ article h2 {
 	font-style: italic;
 	border-bottom: solid 1px #ccc;
 }
+
+h3 {
+	text-align: center;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 25px;
+	margin-bottom: 25px;
+}
+
 article p:first-of-type {
 	text-indent: 25px;
 }
-p, li {
+
+p, li, em {
 	line-height: 25px;
 	letter-spacing: 0.02em;
 	word-spacing: 0.15em;
-	padding-bottom: 25px;
+	margin-bottom: 25px;
 }
+
 footer {
 	font-size: 12px;
 	font-style: italic;
+	padding-bottom: 25px;
 }
+
 article p {
 	text-align: justify;
 	margin-right: 25px;
 }
+
 /* link styles */
 a {
 	-webkit-transition: all 0.3s ease-in-out;
@@ -90,11 +100,12 @@ a:hover {
 	color: #336699;
 }
 /* lists */
-nav {
 
-}
-nav > ol {
-}
 nav > ol > li {
 	font-style: italic;	
+}
+
+article li {
+	margin-left: 50px;
+	list-style: georgian;
 }
