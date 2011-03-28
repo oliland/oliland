@@ -1,4 +1,8 @@
-$:.unshift File.dirname(__FILE__)
+require 'rubygems'
+require 'bundler'
 
-require 'app'
+Bundler.require
+
+require './app'
+
 run Oliland
