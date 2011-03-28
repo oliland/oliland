@@ -12,4 +12,8 @@ class Oliland < Sinatra::Base
     markdown :"#{params[:title]}", :layout_engine => :erb
   end
 
+  get '/skydiving/?' do
+    erb :skydiving
+  end
+
 end

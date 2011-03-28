@@ -109,3 +109,12 @@ article li {
 	margin-left: 50px;
 	list-style: georgian;
 }
+
+/* images */
+article > img {
+	margin: 0 0 25px -50px;
+}
+.image-right {
+	float: right;
+	margin: 0 -25px 25px 25px;
+}

@@ -1,7 +1,7 @@
 ### First published 28th March 2011.
 
 Like ironing my shirts or fixing the mountain of broken electronics
-I have piled up, getting a blog together has been on my to-do list
+I've piled up, getting a blog together has been on my to-do list
 for some time. Here are some general tips for anyone who struggles
 to find the motivation to spice up their internet life:
 
