@@ -23,5 +23,5 @@ and someone adds important information, I'll be sure to update the article
 & credit them.
 
 Let me know what you think on [twitter](http://twitter.com/oliland/),
-or just send me a nice [letter](mailto:oliver@kingshott.com).
+or send me a [letter](mailto:oliver@kingshott.com).
 
