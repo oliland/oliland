@@ -1,4 +1,5 @@
-### First published 28th March 2011.
+# Finally, a place to call home
+### First published 28<sup>th</sup> March 2011.
 
 Like ironing my shirts or fixing the mountain of broken electronics
 I've piled up, getting a blog together has been on my to-do list

@@ -18,12 +18,12 @@
 		</a>
 	</header>
 
-	<nav>
 	<p><img src="/images/glyph.png" /></p>
-	<ol>
-		<li><a href="/blog/finally-a-place-to-call-home/">Finally, a place to call home</a></li>
-	</ol>
-	</nav>
+	<% if @contents %>
+		<nav>
+			<%=markdown :contents %>
+		</nav>
+	<% end %>
 
 	<article>
 		<%=yield %>

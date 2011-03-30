@@ -5,15 +5,12 @@ require 'rdiscount'
 class Oliland < Sinatra::Base
 
   get '/' do
+    @contents = true
     markdown :index, :layout_engine => :erb
   end
 
   get '/blog/:title/?' do
-    markdown :"#{params[:title]}", :layout_engine => :erb
-  end
-
-  get '/skydiving/?' do
-    erb :skydiving
+    markdown :"blog/#{params[:title]}", :layout_engine => :erb
   end
 
 end

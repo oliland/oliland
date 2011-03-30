@@ -6,6 +6,7 @@ html, body {
 	font-size: 16px;
 	background: url('/images/rhythm.png');
 	text-align: center;
+	line-height: 25px;
 }
 
 #main {
@@ -16,25 +17,28 @@ html, body {
 	border-left: solid 20px #333;
 	min-height: 100%;
 }
-header h1 {
+
+header h1,
+#tagline {
 	display: block;
+	margin: 0 auto;
+}
+
+header h1 {
 	width: 536px;
 	height: 47px;
 	padding: 53px 0 25px 0;
-	margin: 0 auto;
 	background: url("/images/oliland.png") 0 53px no-repeat;
 }
 
 #tagline {
-	display: block;
 	width: 314px;
 	height: 16px;
 	padding: 17px 0 42px 0;
-	margin: 0 auto;
 	background: url("/images/tagline.png") 0 17px no-repeat;
 }
 
-h1 span,
+header h1 span,
 #tagline span {
 	display: none;
 }
@@ -47,6 +51,15 @@ article {
 
 /* Type */
 
+h1, h2, h3 {
+	font-style: italic;
+}
+
+article h1 {
+	display: block;
+	text-align: center;
+}
+
 h2 {
 	font-size: 25px;
 	letter-spacing: 0.03em;
@@ -54,15 +67,12 @@ h2 {
 	margin: 25px 0 24px 0;
 	text-transform: lowercase;
 	width: 100%;
-	font-style: italic;
 	border-bottom: solid 1px #ccc;
 }
 
 h3 {
 	text-align: center;
 	font-size: 14px;
-	font-style: italic;
-	line-height: 25px;
 	margin-bottom: 25px;
 }
 
@@ -70,11 +80,33 @@ article p:first-of-type {
 	text-indent: 25px;
 }
 
-p, li, em {
-	line-height: 25px;
+article h1, p, li, em {
 	letter-spacing: 0.02em;
 	word-spacing: 0.15em;
 	margin-bottom: 25px;
+}
+
+sup {
+	position: relative;
+	height: 0;
+	line-height: 1;
+	bottom: 0.9ex;
+	font-size: 10px;
+}
+
+em {
+	font-style: italic;
+}
+
+pre {
+	padding: 12.5px 25px;
+	margin: 0 -50px 25px -25px;
+	background: #333;
+	color: #fff;
+}
+code {
+	font-family: courier-new, courier;
+	font-size: 14px;
 }
 
 footer {
@@ -111,6 +143,13 @@ article li {
 }
 
 /* images */
-article > img {
-	margin: 0 0 25px 0;
+article p img {
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+	font-size: 0;
+	vertical-align: top;
+}
+article p:first-of-type > img {
+	margin-left: -25px;
 }
