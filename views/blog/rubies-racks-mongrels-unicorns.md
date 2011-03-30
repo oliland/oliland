@@ -92,4 +92,4 @@ You'll notice that all this setting up isn't very rails-like. There are two very
 
 But if you're like me, you don't want to use 1) because it's not modular enough, and 2) gets suspiciously expensive once you start needing more workers.
 
-The great thing about this setup is that you can mix and match. There's no reason you can't have a python stack and a Ruby stack being controlled by different virtualhosts under the same web server. You add caches, more advanced load balancers, firewalls, whatever you like, and it won't cost you a penny. Don't you love open source?
+The great thing about this setup is that you can mix and match. There's no reason you can't have a Python stack and a Ruby stack being controlled by different virtualhosts under the same web server. You add caches, more advanced load balancers, firewalls, whatever you like, and it won't cost you a penny. Don't you love open source?
