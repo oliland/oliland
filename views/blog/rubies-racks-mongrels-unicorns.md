@@ -45,7 +45,7 @@ Let's dive right in to a more complicated set up.
 
 ![A typical development stack with WEBrick](/images/2/advanced.png)
 
-Here the distinction between a web server and an application server becomes important. You see, the Ruby stack isn't designed to serve static files efficiently; that's a web servers job.
+Here the distinction between a web server and an application server becomes important. You see, the Ruby stack isn't designed to serve static files efficiently; that's a web server's job.
 
 In this example, the web server forwards all requests for Ruby pages through to the application servers, and handles all requests for static files without going through the ruby stack. Web servers were designed to serve static files; they can be compressed or cached in memory making serving them super fast!
 
