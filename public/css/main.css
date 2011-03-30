@@ -137,9 +137,13 @@ nav > ol > li {
 	font-style: italic;	
 }
 
-article li {
+article ul li {
 	margin-left: 50px;
-	list-style: georgian;
+	list-style: square;
+}
+article ol li {
+	margin-left: 50px;
+	list-style: lower-roman;
 }
 
 /* images */
