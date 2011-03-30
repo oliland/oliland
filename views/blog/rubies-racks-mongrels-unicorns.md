@@ -17,7 +17,7 @@ These are the forefront of your application. They take HTTP requests and either 
 
 Application servers are web servers too, but they take HTTP requests and pass them on to your Ruby application through Rack. They can serve static files, but not as quickly. We'll explain more about them below.
 
-![Rack](/images/2/Rack.png)
+![Rack](/images/2/rack.png)
 
 What's _Rack_? Think of it as an interpreter between an application server and your Ruby application. It takes that HTTP data and transforms it into a ruby `request` object, containing all that juicy HTTP data in a format that your application can deal with, just like Python's WSGI.
 
