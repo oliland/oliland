@@ -43,7 +43,7 @@ _Review:_ Looks like cat sick but tasty enough to drink (just like me?)
 * Lots of gin
 * Something else
 
-Pump the strawberries with sugar and add gin until it's drinkable.
+Pulp the strawberries with sugar and add gin until it's drinkable.
 
 _Review:_ We were pretty fucked by this point.
 
