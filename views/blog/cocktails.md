@@ -15,8 +15,7 @@ A friend and I decided to make cocktails in my kitchen. These are the results:
 Pulp the raspberries with the sugar, mint and lime. Add 6 teaspoons of pulp with plenty of ice, the rum and chambord, and shake well.
 Strain through a sieve. Glassware should be martini.
 
-### Review
-Don't be fooled by it's enchanting red glow; there's no innocence in this smoothie.
+_Review:_ Don't be fooled by it's enchanting red glow; there's no innocence in this smoothie.
 
 ## White Pirate
 
@@ -26,8 +25,7 @@ Don't be fooled by it's enchanting red glow; there's no innocence in this smooth
 
 Pour over ice in a tumbler.
 
-### Review
-Abandon the creamy wastelands of Moscow and charter a darker ship towards the Carribean. This delicious grog takes no prisoners.
+_Review:_ Abandon the creamy wastelands of Moscow and charter a darker ship towards the Carribean. This delicious grog takes no prisoners.
 
 ## Classy Oli
 * Handful of Blueberries
@@ -37,8 +35,7 @@ Abandon the creamy wastelands of Moscow and charter a darker ship towards the Ca
 
 Pulp the blueberries with sugar and put it all in a shaker with ice. Sieve.
 
-### Review
-Looks like cat sick but tasty enough to drink (just like me?).
+_Review:_ Looks like cat sick but tasty enough to drink (just like me?)
 
 ## Tai Tai
 * Lots of strawberries
@@ -48,5 +45,6 @@ Looks like cat sick but tasty enough to drink (just like me?).
 
 Pump the strawberries with sugar and ad gin until it's drinkable.
 
-### Review
-We were pretty fucked by this point.
+_Review:_ We were pretty fucked by this point.
+
+Most of these were the brainchild of [mennenia](http://mennenia.com/) who brilliantly suggested this alternative night in.
