@@ -26,6 +26,13 @@
 		</nav>
 	<% end %>
 
+	<% if @projects %>
+	<p><img src="/images/glyph.png" /></p>
+		<nav>
+			<%=markdown :projects %>
+		</nav>
+	<% end %>
+
 	<article>
 		<%=yield %>
 	</article>
