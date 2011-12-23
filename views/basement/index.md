@@ -1,5 +1,5 @@
 # Oli's Puzzle Basement
-### Or every technical question I've ever been asked in an interview.
+### Some questions I've been asked in interviews.
 ### Last updated 13<sup>th</sup> December 2011
 
 ## Fibonnacci Sequence
@@ -23,4 +23,3 @@ So if your A = [0,1,1,3,5,5,6] and K = 6 - your pair indexes would be (0,6), (6,
 
 You should be able to do this in O(n) using O(n) storage.
 
-## Hard mode
